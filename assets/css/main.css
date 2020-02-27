@@ -1,0 +1,73 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400&display=swap');
+
+/* Custom Settings */
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  color: #FFB55A;
+}
+
+a:hover {
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+h2 {
+  position: relative;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #FFB55A;
+  left: 50%;
+  bottom: -4px;
+  margin-left: -25px;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h5 span {
+  color: #FFB55A;
+}
+
+.item {
+  flex-basis: 20%;
+  text-align: center;
+  padding: 16px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .item {
+    flex-basis: 50%;
+  }
+
+}
